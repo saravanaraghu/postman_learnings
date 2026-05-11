@@ -2838,6 +2838,29 @@
 						"url": "https://reqres.in/api/users/2"
 					},
 					"response": []
+				},
+				{
+					"name": "DELETE USER",
+					"id": "ac06ab90-e19e-455c-8174-acc1ba36719f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres_648090f5b0d84731b1c9467486d68ce6",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "https://reqres.in/api/users/2"
+					},
+					"response": []
 				}
 			],
 			"id": "fa5fb261-eb7e-496f-a802-641eff0635dc"
