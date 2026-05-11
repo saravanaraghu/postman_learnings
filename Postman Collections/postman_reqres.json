@@ -2716,6 +2716,31 @@
 					}
 				}
 			]
+		},
+		{
+			"name": "Practice",
+			"item": [
+				{
+					"name": "GET_USER_DETAILS",
+					"id": "eb86fcee-872b-48c7-b774-23f9ebcb3dc6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres_648090f5b0d84731b1c9467486d68ce6",
+								"type": "text"
+							}
+						],
+						"url": "https://reqres.in/api/users/3"
+					},
+					"response": []
+				}
+			],
+			"id": "fa5fb261-eb7e-496f-a802-641eff0635dc"
 		}
 	],
 	"auth": {
