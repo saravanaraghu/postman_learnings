@@ -2782,6 +2782,62 @@
 						"url": "https://reqres.in/api/users"
 					},
 					"response": []
+				},
+				{
+					"name": "UPDATE_USER",
+					"id": "945162e2-89ad-4f65-bc33-c2387f29dc1d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres_648090f5b0d84731b1c9467486d68ce6",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\": \"morpheus\", \"job\": \"zion resident\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://reqres.in/api/users/2"
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH_USER",
+					"id": "ddc29b47-9f39-4b86-9610-7247d0c31697",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres_648090f5b0d84731b1c9467486d68ce6",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"C JOSEPH VIJAY\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://reqres.in/api/users/2"
+					},
+					"response": []
 				}
 			],
 			"id": "fa5fb261-eb7e-496f-a802-641eff0635dc"
