@@ -2735,7 +2735,51 @@
 								"type": "text"
 							}
 						],
-						"url": "https://reqres.in/api/users/3"
+						"url": "https://reqres.in/api/users"
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE_USER",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "d22d55c7-d09a-4b33-978e-af0eab92b53a",
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
+					"id": "c5314afe-dd6e-45d7-b7ec-8e460777b8ae",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres_648090f5b0d84731b1c9467486d68ce6",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"saja.rash@reqres.in\",\r\n    \"first_name\": \"Saja\",\r\n    \"last_name\": \"Rash\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://reqres.in/api/users"
 					},
 					"response": []
 				}
